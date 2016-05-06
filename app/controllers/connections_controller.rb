@@ -13,6 +13,10 @@ class ConnectionsController < ApplicationController
   	redirect_to dashboard_path, notice: "Connection Deleted"
   end
 
+  def omniauth_failure
+  	redirect_to dashboard_path, notice: "Something Went Wrong!"
+  end
+
   private
 
   def auth_hash 
