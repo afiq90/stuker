@@ -5,4 +5,9 @@ class Post < ActiveRecord::Base
 	validates_presence_of :scheduled_at
 	validates_length_of :content, maximum: 140, message: "Less than 140 characters please"
 	validates_datetime :scheduled_at, :on => :create, :on_or_after => Time.zone.now
+
+	def to_facebook 
+		graph = Koala::Facebook::API.new(self.user.facebook.oauth_token)
+		graph.put_connections('me', 'feed', message: self.content)
+	end	
 end

@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
 
-# Add memonet js and datetimepicker
+# Add delayed web
+gem 'delayed-web', github: 'thebestday/delayed-web'
+# Add delayed jon
+gem 'delayed_job_active_record'
+# Add twitter and koala
+#gem 'twitter'
+gem 'koala'
+# Add moment js and datetimepicker
 gem 'momentjs-rails', '~> 2.9',  :github => 'derekprior/momentjs-rails'
 gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: 'master', submodules: true
 # Add validates timeliness
