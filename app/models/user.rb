@@ -8,4 +8,6 @@ class User < ActiveRecord::Base
 
   has_many :connections, dependent: :destroy
 
+  has_many :posts, dependent: :destroy
+
 end
