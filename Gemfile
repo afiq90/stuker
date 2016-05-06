@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add dotenv gem
+gem 'dotenv-rails'
 # Add devise 
 gem 'devise'
 # Add simple form
