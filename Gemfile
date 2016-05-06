@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add devise 
+gem 'devise'
 # Add simple form
 gem 'simple_form'
 # Add font awesone
