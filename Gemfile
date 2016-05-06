@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add validates timeliness
+gem 'validates_timeliness', '~>3.0'
 # Add omniauth facebook
 gem 'omniauth-facebook'
 # Add omniauth twitter

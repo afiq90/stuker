@@ -14,7 +14,7 @@ class PostsController < ApplicationController
 			if @post.save
 				format.html { redirect_to dashboard_path, notice: "Post succesfully created!"}
 			else 
-				forat.html {render :new}
+				format.html {render :new}
 			end
 		end
 	end
