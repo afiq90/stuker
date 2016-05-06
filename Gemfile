@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Add memonet js and datetimepicker
+gem 'momentjs-rails', '~> 2.9',  :github => 'derekprior/momentjs-rails'
+gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: 'master', submodules: true
 # Add validates timeliness
 gem 'validates_timeliness', '~>3.0'
 # Add omniauth facebook
