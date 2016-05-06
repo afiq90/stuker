@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add omniauth facebook
+gem 'omniauth-facebook'
 # Add omniauth twitter
 gem 'omniauth-twitter'
 # Add dotenv gem
