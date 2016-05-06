@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Add simple form
+gem 'simple_form'
+# Add font awesone
+gem "font-awesome-rails"
 # Add twitter bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
