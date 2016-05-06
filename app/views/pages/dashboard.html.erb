@@ -1,0 +1,33 @@
+<div class="row">
+
+<!-- settings and connections -->
+	<div class="col-md-2 text-center">
+		<%= image_tag 'stukker.jpeg', class: 'logo' %>
+		<hr>
+
+		<div class="time-zone">
+			<p class="text-center">
+				<b><%=Time.zone.name %> Timezone </b>
+				<%= link_to 'Change Time Zone', edit_user_registration_path %>
+			</p>
+		</div>
+
+	</div>
+
+	<div class="social">
+		
+	</div>
+
+<!-- scheduled posts -->
+	<div class="col-md-5">
+		<h3 class="text-center">Scheduled</h3>
+		<hr>
+	</div>
+
+<!-- post history -->
+	<div class="col-md-5">
+		<h3 class="text-center">History</h3>
+		<hr>
+	</div>
+
+</div>
