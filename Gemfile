@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add will_paginate
+gem 'will_paginate'
 # Add delayed web
 gem 'delayed-web', github: 'thebestday/delayed-web'
 # Add delayed jon
